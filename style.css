@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(textura.png);
+    background-size: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+}
+
+main{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    max-width: 40vw;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.425);
+}
+h1{
+    margin: 10px;
+    
+}
+h2{
+    font-size: 1em;
+    margin-bottom: 5px;
+    max-width: 38vw;
+    margin: auto;
+    padding: 5px;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
+    
+}
+
+h3{
+    margin-bottom: 2%;
+}
+
+
+input{
+    background-color: white;
+    font-size: 6vw;
+    width: 10vw;
+    height: 10vw;
+    margin: 2px;
+    color: white;
+    border-radius: 10px;
+}
+
+#jogador{
+    display: inline;
+}
+
+#reiniciar{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.2rem;
+    color: black;
+    border-radius: 50px;
+    font-weight: bolder;
+    background-color: rgb(11, 105, 2);
+    color: white;
+    
+}
+#reiniciar:hover{
+    box-shadow: 0px 0px 15px white;
+}
+
+@media screen and (max-width: 950px) {
+    main{
+        max-width: 60vw;
+    }
+    input{
+        width: 15vw;
+        height: 15vw;
+    }
+    #reiniciar{
+        width: 15vw;
+        height: 5vw;
+        font-size: 1rem;
+        padding: 2px;
+    }
+   
+    
+}
+
+@media screen and (max-width: 500px) {
+    main{
+        max-width: 70vw;
+    }
+    input{
+        width: 20vw;
+        height: 20vw;
+    }
+    #reiniciar{
+        width: 20vw;
+        height: 10vw;
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+   
+    
+}
+
+
+
