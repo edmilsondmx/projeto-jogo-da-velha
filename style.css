@@ -14,8 +14,8 @@ body{
 
 main{
     background-color: #ffffff10;
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     max-width: 40vw;
     margin: auto;
     margin-top: 50px;
